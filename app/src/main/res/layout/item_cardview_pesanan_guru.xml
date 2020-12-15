@@ -77,5 +77,25 @@
             android:layout_marginRight="16dp"
             app:srcCompat="@drawable/ic_baseline_cancel_24" />
 
+        <ImageView
+            android:id="@+id/ib_konfirmasi_log"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@id/ib_cancel_log"
+            app:srcCompat="@drawable/ic_baseline_check_circle_24" />
+
+        <ImageView
+            android:id="@+id/ib_selesai_log"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@id/ib_konfirmasi_log"
+            app:srcCompat="@drawable/ic_baseline_save_alt_24" />
+
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
